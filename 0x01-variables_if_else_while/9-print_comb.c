@@ -1,6 +1,6 @@
 /*
  * File: 9-print_comb.c
- * Software Engineer: Teresia-Kirungo
+ * Author: Teresia-Kirungo
  */
 
 #include <stdio.h>
@@ -10,21 +10,20 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-    int num;
+	int num;
 
-    for (num = 0; num <= 9; num++)
-    {
-        putchar((num % 10) + '0');
-        if (num == 9)
-            continue;
+	for (num = 0; num <= 9; num++)
+	{
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
 
-        putchar(',');
-        putchar(' ');
-    }
-    putchar('\n');
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
