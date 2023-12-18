@@ -1,4 +1,3 @@
-/*
  * File: 9-print_comb.c
  * Software Engineer: Teresia-Kirungo
  */
@@ -28,3 +27,4 @@ int main(void)
 
 	return (0);
 }
+
