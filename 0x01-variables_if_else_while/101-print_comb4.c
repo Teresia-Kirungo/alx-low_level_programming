@@ -1,6 +1,6 @@
 /*
  * File: 101-print_comb4.c
- * Software Engineer: Teresia-Kirungo
+ * Author: Teresia-Kirungo
  */
 
 #include <stdio.h>
@@ -11,7 +11,6 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	int digit1, digit2, digit3;
@@ -28,7 +27,7 @@ int main(void)
 
 				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 					continue;
-				
+
 				putchar(',');
 				putchar(' ');
 			}
