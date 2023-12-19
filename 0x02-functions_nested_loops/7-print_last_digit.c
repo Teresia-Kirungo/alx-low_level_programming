@@ -31,5 +31,5 @@ int print_last_digit(int n)
 	}
 
 	/* Return the value of the last digit */
-	return last_digit;
+	return (last_digit);
 }
