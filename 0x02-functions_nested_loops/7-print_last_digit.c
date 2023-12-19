@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * print_last_digit - Prints/returns value of last digit of a no.
