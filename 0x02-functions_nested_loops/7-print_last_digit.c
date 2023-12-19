@@ -2,7 +2,7 @@
 #include <limits.h>
 
 /**
- * print_last_digit - Prints and returns the value of the last digit of a number
+ * print_last_digit - Prints value of last digit of a no
  * @n: The number to extract the last digit from
  *
  * Return: The value of the last digit
