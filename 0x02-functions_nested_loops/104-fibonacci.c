@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,16 +5,19 @@
  */
 void print_fibonacci(void)
 {
-	unsigned long int prev = 0, curr = 1, next, count;
+	unsigned long int prev = 1, curr = 2, next, count;
 
-	for (count = 0; count < 98; count++)
+	printf("%lu, %lu, ", prev, curr);
+
+	for (count = 2; count < 98; count++)
 	{
-		if (count < 97)
-			printf("%lu, ", curr);
-		else
-			printf("%lu\n", curr);
-
 		next = prev + curr;
+
+		if (count < 97)
+			printf("%lu, ", next);
+		else
+			printf("%lu\n", next);
+
 		prev = curr;
 		curr = next;
 	}
