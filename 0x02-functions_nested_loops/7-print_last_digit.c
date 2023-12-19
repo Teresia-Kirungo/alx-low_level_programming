@@ -1,8 +1,7 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * print_last_digit - Prints/returns value of last digit of a no
+ * print_last_digit - Prints/returns value of last digit of a no.
  * @n: The number to extract the last digit from
  *
  * Return: The value of the last digit
@@ -22,5 +21,5 @@ int print_last_digit(int n)
     _putchar(last_digit + '0');
 
     /* Return the value of the last digit */
-    return (last_digit);
+    return last_digit;
 }
