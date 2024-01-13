@@ -10,5 +10,5 @@
 char *_strncat(char *dest, char *src, int n)
 {
     /* Empty function definition */
-    return dest;
+    return (dest);
 }
