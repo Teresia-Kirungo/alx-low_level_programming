@@ -13,6 +13,6 @@
 unsigned int _strspn(char *s, char *accept)
 {
     /* Empty function definition */
-    return 0;
+    return (0);
 }
 
