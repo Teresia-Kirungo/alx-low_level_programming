@@ -6,8 +6,10 @@
  *
  * Return: On success, the character written. On error, -1 is returned.
  */
-int _putchar(char c)
+#include "main.h"
+
+int _putchar(char c __attribute__((unused)))
 {
-    /* Empty function definition */
+    /* Empty function declaration */
     return (0);
 }
