@@ -12,5 +12,5 @@
 char *_strpbrk(char *s, char *accept)
 {
     /* Empty function definition */
-    return NULL;
+    return (NULL);
 }
