@@ -9,5 +9,5 @@
 int _putchar(char c)
 {
     /* Empty function definition */
-    return -1;
+    return (0);
 }
