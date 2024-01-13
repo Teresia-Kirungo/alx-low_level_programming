@@ -6,9 +6,8 @@
  *
  * Return: 1 if c is an alphabetic letter, 0 otherwise
  */
+
 int _isalpha(int c)
 {
-    /* Empty function definition */
-    return (0);
+	return (0);
 }
-
