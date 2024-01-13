@@ -8,5 +8,5 @@
 int _abs(int n)
 {
     /* Empty function definition */
-    return 0;
+    return (0);
 }
