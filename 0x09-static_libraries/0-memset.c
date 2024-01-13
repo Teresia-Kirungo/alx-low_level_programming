@@ -9,6 +9,5 @@
  */
 char *_memset(char *s, char b __attribute__((unused)), unsigned int n)
 {
-    /* Empty function definition */
-    return (s);
+	return (s);
 }
