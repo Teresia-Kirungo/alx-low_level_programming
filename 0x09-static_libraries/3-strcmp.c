@@ -9,5 +9,5 @@
 int _strcmp(char *s1, char *s2)
 {
     /* Empty function definition */
-    return 0;
+    return (0);
 }
