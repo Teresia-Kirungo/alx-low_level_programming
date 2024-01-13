@@ -8,6 +8,5 @@
  */
 char *_strcat(char *dest, char *src)
 {
-    /* Empty function definition */
-    return (dest);
+	return (dest);
 }
