@@ -13,6 +13,6 @@
 char *_strstr(char *haystack, char *needle)
 {
     /* Empty function definition */
-    return NULL;
+    return (NULL);
 }
 
