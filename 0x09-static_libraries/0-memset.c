@@ -7,8 +7,8 @@
  *
  * Return: a pointer to the filled memory area (s)
  */
-char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char, unsigned int)
 {
     /* Empty function definition */
-    return s;
+    return (s);
 }
