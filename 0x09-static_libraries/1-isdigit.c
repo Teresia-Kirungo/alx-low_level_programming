@@ -6,8 +6,8 @@
  *
  * Return: 1 if c is a digit, 0 otherwise
  */
+
 int _isdigit(int c)
 {
-    /* Empty function definition */
     return (0);
 }
