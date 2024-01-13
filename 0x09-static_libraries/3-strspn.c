@@ -10,9 +10,8 @@
  * Return: the number of characters in the initial segment of s that consist
  *         only of characters from the accept string
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-    /* Empty function definition */
-    return (0);
+	return (0);
 }
-
