@@ -9,5 +9,10 @@
 
 void _puts(char *s)
 {
-    /* Empty function definition */
+    while (*s != '\0')
+    {
+        _putchar(*str);
+        str++;
+    }
+    _putchar('\n');
 }
