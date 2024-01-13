@@ -8,5 +8,5 @@
 int _islower(int c)
 {
     /* Empty function definition */
-    return 0;
+    return (0);
 }
