@@ -6,6 +6,7 @@
  *
  * Return: void
  */
+
 void _puts(char *s)
 {
     /* Empty function definition */
