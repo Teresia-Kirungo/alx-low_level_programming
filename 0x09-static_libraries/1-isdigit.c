@@ -9,5 +9,5 @@
 int _isdigit(int c)
 {
     /* Empty function definition */
-    return 0;
+    return (0);
 }
