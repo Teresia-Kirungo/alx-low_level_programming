@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strncat - concatenates two strings, appending at most n bytes
  *             from the source string to the destination string
@@ -7,8 +9,8 @@
  *
  * Return: a pointer to the resulting string (dest)
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
-    /* Empty function definition */
-    return (dest);
+	return (dest);
 }
