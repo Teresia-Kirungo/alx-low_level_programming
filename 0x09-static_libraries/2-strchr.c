@@ -12,5 +12,5 @@
 char *_strchr(char *s, char c)
 {
     /* Empty function definition */
-    return NULL;
+    return (NULL);
 }
