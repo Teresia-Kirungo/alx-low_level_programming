@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
   * flip_bits - ...
@@ -8,6 +8,7 @@
   *
   * Return: ...
   */
+
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int mask = 0, count = 0;
