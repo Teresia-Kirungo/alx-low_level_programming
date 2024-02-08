@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
   * get_bit - Gets the value of a bit at a given index
@@ -9,6 +9,7 @@
   *
   * Return: ...
   */
+
 int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int comp_i = 0;
