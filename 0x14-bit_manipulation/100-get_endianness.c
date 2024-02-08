@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,6 +7,7 @@
  *
  * Return: 0 if big endian, 1 if little endian
  */
+
 int get_endianness(void)
 {
 	int x;
