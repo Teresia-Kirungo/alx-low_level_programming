@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
   * binary_to_uint - Converts a binary number to an unsigned int
@@ -36,6 +36,7 @@ unsigned int binary_to_uint(const char *b)
   *
   * Return: String length
   */
+
 int _strlen(const char *s)
 {
 	int c = 0;
